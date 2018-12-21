@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Crash Course For Absolute Beginners</title>
+  </head>
+  <body>
+    <h1>HTML Crash Course For Absolute Beginners - Notes</h1>
+    <h3>Google Chrome shortcuts</h3>
+    <ul>
+      <li>CTRL + U - view page source</li>
+      <li>F12 - shows/hides chrome dev tools</li>
+    </ul>
+    <h3>Block level elements</h3>
+    <p>Start on a new line</p>
+    <ul>
+      <li>Headings</li>
+      <li>Paragraphs</li>
+      <li>Divs</li>
+      <li>Form</li>
+    </ul>
+    <h3>Inline elements</h3>
+    <p>Don't start on a new line and take only the necessary width.</p>
+    <ul>
+      <li>span</li>
+      <li>img</li>
+      <li>a - surrounded text becomes a link</li>
+      <li>strong - surround text, semantic tag for making text stand out.</li>
+      <li>
+        <em>em</em> - surround text, semantic tag for emphasising text (looks
+        italic).
+      </li>
+      <li>
+        form elements - label and inputs - would put in a div (block) to put
+        them on separate lines.
+      </li>
+    </ul>
+
+    <h3>Tag Attributes</h3>
+    <ul>
+      <li>provide info about an element.</li>
+      <li>key value pairs</li>
+      <li>the href directs you to a link</li>
+      <li>target made link open in new tag..</li>
+    </ul>
+
+    <h3>Lists</h3>
+    <ul>
+      <li>displays block</li>
+      <li>
+        list-style-type: disc (bullet point); is default can change with css
+      </li>
+      <li>great for navigation bars</li>
+    </ul>
+    <ol>
+      <li>ordered list - no bullets, uses numbers</li>
+      <li>good for simple lists.</li>
+    </ol>
+
+    <h3>Tables</h3>
+    <p>For the headings we use thead with th tags around the heading names.</p>
+    <p>For the data we use tbody with td tags</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dominic Davies</td>
+          <td>dom@email.com</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <td>Eric Davies</td>
+          <td>eric@email.com</td>
+          <td>70</td>
+        </tr>
+        <tr>
+          <td>Del Davies</td>
+          <td>del@email.com</td>
+          <td>42</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Forms</h3>
+    <p>
+      Forms have an action attribute would submit form to a page like
+      process.php on server.
+    </p>
+    <p>
+      Basic forms usually have a label followed by input (type - text commonly).
+      Input name helps the server understand with data is linked to which input
+      field.
+    </p>
+    <form>
+      <div>
+        <label>First Name:</label>
+        <input type="text" name="firstName" placeholder="Enter First Name" />
+      </div>
+      <br />
+      <div><label>Last Name:</label> <input type="text" name="lastName" /></div>
+      <br />
+      <div><label>Email:</label> <input type="text" name="email" /></div>
+      <br />
+      <div><label>Message:</label> <textarea name="message"></textarea></div>
+      <div>
+        <label>Gender:</label>
+        <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div>
+        <label>Age</label> <input type="number" name="age" value="30" />
+      </div>
+      <div><label>Birthday:</label> <input type="date" name="birthday" /></div>
+      <div><label></label></div>
+      <br />
+      <input type="submit" name="submit" value="submit" />
+    </form>
+    <h3>Images</h3>
+    <ul>
+      <li>are inline</li>
+      <li>can use width attribute (better to use css)</li>
+      <li>can wrap image in a link</li>
+    </ul>
+    <img
+      src="img/HTML Crash Course For Absolute Beginners.jpg"
+      alt="HTML Crash Course For Absolute Beginners YouTube Thumbnail"
+      width="400px"
+    />
+    <h3>Quotations</h3>
+    <blockquote>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat obcaecati
+      rerum quia accusantium? Sit assumenda laborum, necessitatibus natus
+      similique obcaecati. Molestiae optio sint ut quaerat quae omnis magnam
+      recusandae error, et aperiam corrupti reiciendis molestias atque iste cum!
+      Aspernatur architecto laborum ipsa atque voluptatibus aliquam doloremque
+      reiciendis hic facilis cupiditate.
+    </blockquote>
+  </body>
+</html>
